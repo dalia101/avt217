@@ -1,7 +1,20 @@
 body {
 background-color: springgreen;
 text-align: center;
+font-size: 48px;
 }
 img {
   max-width: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 10px dotted black;
+  transition: color .5s ease;
+
+}
+a:hover {
+  color: bue;
+  border-bottom: 10px solid red;
+
 }
