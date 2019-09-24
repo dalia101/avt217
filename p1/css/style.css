@@ -1,0 +1,20 @@
+body {
+background-color: black;
+font-color: white;
+text-align: center;
+font-family: 'Bad Script', cursive;
+font-size: 48px;
+}
+p{
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 5px dotted red;
+  transition: color .5s ease;
+}
+a:hover {
+  color: red;
+  border-bottom: 5px solid red;
+}
