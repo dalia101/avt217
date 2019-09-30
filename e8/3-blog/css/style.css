@@ -1,0 +1,56 @@
+body{
+  background-color: #333333
+}
+#container{
+  width: 810px;
+  margin: 50px auto;
+}
+.header{
+  width: 810px;
+  height: 150px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px 0px 100px;
+}
+.body-1{
+  width: 600px;
+  height: 500px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+.side-1{
+  width: 200px;
+  height: 250px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px;
+}
+.footer-1{
+  width: 600px;
+  height: 50px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px 0px 100px;
+}
+.body-2{
+  width: 600px;
+  height: 500px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+.side-2{
+  width: 200px;
+  height: 250px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px;
+}
+.footer-2{
+  width: 600px;
+  height: 50px;
+  background-color: DarkViolet;
+  float: left;
+  margin: 0px 0px 100px;
+}
