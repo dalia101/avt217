@@ -12,10 +12,10 @@ p{
 a {
   color: white;
   text-decoration: none;
-  border-bottom: 5px dotted red;
+  border-bottom: 5px dotted firebrick;
   transition: color .5s ease;
 }
 a:hover {
-  color: red;
-  border-bottom: 5px solid red;
+  color: firebrick;
+  border-bottom: 5px solid firebrick;
 }

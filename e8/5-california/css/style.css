@@ -1,0 +1,83 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: salmon;
+  margin: 0;
+}
+#container{
+  background-color: lightgreen;
+  width: 400px;
+  margin: 50px auto;
+}
+
+.left{
+  width: 100px;
+  float: left;
+}
+
+.b1{
+  width: 100px;
+  height: 200px;
+  float: left;
+  border: 5px solid white;
+}
+.b2{
+  width: 100px;
+  height: 200px;
+  float: left;
+  border: 5px solid white;
+}
+.b3{
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 5px solid white;
+}
+.b4{
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 5px solid white;
+}
+.b5{
+width: 200px;
+height: 100px;
+float: left;
+border: 5px solid white;
+}
+.b6{
+  width: 100px;
+  height: 200px;
+  float: left;
+  border: 5px solid white;
+}
+.b8{
+  width: 100px;
+  height: 200px;
+  float: left;
+  border: 5px solid white;
+}
+.b7{
+width: 100px;
+height: 400px;
+float: left;
+border: 5px solid white;
+}
+
+.b9{
+width: 200px;
+height: 400px;
+float: left;
+border: 5px solid white;
+}
