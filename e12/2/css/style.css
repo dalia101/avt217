@@ -1,0 +1,55 @@
+body{
+  background-color: white;
+}
+#container{
+  width: 1500px;
+  margin: 0 auto;
+}
+
+
+.black{
+  width: 400px;
+  height: 3000px;
+  background-color: black;
+  float: left;
+  margin: 0 50px 0 0;
+}
+h3{
+  font-family: 'Monoton', cursive;
+  color: white;
+  font-weight: normal;
+  font-size: 600px;
+  line-height: 1.1;
+  margin: 0px 60px 0 0;
+  text-align: center;
+}
+
+
+.title{
+  width: 1050px;
+  height: 300px;
+
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 48px;
+text-transform: uppercase;
+}
+
+
+#text{
+width: 900px;
+margin: 0px auto;
+}
+h2{
+  font-family: 'Paytone One', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+
+}
+p{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 35px;
+
+}
