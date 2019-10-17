@@ -1,0 +1,88 @@
+body{
+  background-color: white;
+}
+#container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.black{
+  width: 1000px;
+  height: 1200px;
+  background-color: black;
+  float: left;
+  margin: 0 0 0 50px;
+}
+
+h1{
+  font-family: 'Ultra', serif;
+  float: left;
+  color: white;
+  font-weight: normal;
+  font-size: 900px;
+  margin: -60px 0 0 50px;
+}
+
+.title{
+  width: 450px;
+  height: 500px;
+  background-color: black;
+  float: left;
+  margin: 220px 0 0 0;
+}
+
+h2{
+font-family: 'Ultra', serif;
+float: left;
+color: white;
+font-weight: normal;
+font-size: 58px;
+font-weight: bold;
+text-align: left;
+line-height: 8px;
+}
+
+#text{
+width: 1000px;
+margin: 0px auto;
+}
+
+
+h{
+  font-family: 'Ultra', serif;
+  color: white;
+  font-weight: normal;
+  font-size: 600px;
+  line-height: 1.1;
+  margin: 0px 60px 0 0;
+  text-align: center;
+}
+
+
+
+
+}
+h{
+  font-family: 'Monoton', cursive;
+  font-size: 46px;
+  text-align: center;
+  word-spacing: 15px;
+  line-height: 1.8;
+text-transform: uppercase;
+}
+
+
+
+h{
+  font-family: 'Paytone One', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+
+}
+p{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 35px;
+
+}

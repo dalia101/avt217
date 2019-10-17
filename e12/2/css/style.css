@@ -27,12 +27,15 @@ h3{
 
 .title{
   width: 1050px;
-  height: 300px;
+  height: 200px;
 
 }
 h1{
   font-family: 'Monoton', cursive;
-  font-size: 45px;
+  font-size: 46px;
+  text-align: center;
+  word-spacing: 15px;
+  line-height: 1.8;
 text-transform: uppercase;
 }
 
