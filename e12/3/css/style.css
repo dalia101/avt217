@@ -12,7 +12,7 @@ body{
   height: 1200px;
   background-color: black;
   float: left;
-  margin: 0 0 0 50px;
+  margin: 0 0 50px 50px;
 }
 
 h1{
@@ -48,41 +48,19 @@ width: 1000px;
 margin: 0px auto;
 }
 
-
-h{
-  font-family: 'Ultra', serif;
-  color: white;
-  font-weight: normal;
-  font-size: 600px;
-  line-height: 1.1;
-  margin: 0px 60px 0 0;
-  text-align: center;
-}
-
-
-
-
-}
-h{
-  font-family: 'Monoton', cursive;
-  font-size: 46px;
-  text-align: center;
-  word-spacing: 15px;
-  line-height: 1.8;
-text-transform: uppercase;
-}
-
-
-
-h{
+h3{
   font-family: 'Paytone One', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 60px;
-
+color: black;
+font-weight: normal;
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+line-height: 8px;
+margin: 50px;
 }
+
 p{
   font-family: 'Paytone One', sans-serif;
   font-size: 35px;
-
+  margin: 30px 0 0 70px;
 }
