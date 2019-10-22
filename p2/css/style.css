@@ -1,0 +1,90 @@
+<div class="shape">
+    Some content
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* comment: comm+/   /* ***************************************************************************** */ */
+
+html {font-size: 16px;}
+#container{
+  width: 40%;
+  margin: 100px auto;
+  background-color: white;
+}
+h1{
+  font-family: 'Notable', sans-serif;
+  color: gold;
+  font-size: 55px;
+  text-align: center;
+}
+
+.intro {
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Questrial', sans-serif;
+  color: black;
+}
+
+h4{
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Questrial', sans-serif;
+  color: gold;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-family: 'Notable', sans-serif;
+  color: gold;
+  font-size: 200%;;
+}
+
+li{
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  line-height: 1.5em;}
+
+p {
+text-align: left;
+font-size: 18px;
+font-family: 'Questrial', sans-serif;
+color: black;
+line-height: 1.5em;
+}
+
+h3{
+  font-family: 'Notable', sans-serif;
+  color: gold;
+  font-size: 500%;
+  text-align: center;
+  margin-top: -50px;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+  body{background-color: black;}
+  #container{
+    background-color: black;
+    width: 90%;
+  }
+  p{color: white;}
+  .intro{color: white;}
+li{color: white;}
+h1{  font-size: 48px;}
