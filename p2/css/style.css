@@ -1,45 +1,110 @@
-<div class="shape">
-    Some content
-</div>
+#container{
+  width: 1440px;
+  background-color: #1a1a1a;
+  margin: auto;
+}
+
+#title{
+  width: 1440px;
+  height: 1400px;
+}
+
+h1{
+  font-family: 'Teko', sans-serif;
+font-size: 500px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-top: -140px;
+margin-bottom: -550px;
+}
 
 
+h3{
+  font-family: 'Teko', sans-serif;
+font-size: 300px;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+h2{
+  font-family: 'Teko', sans-serif;
+font-size: 600px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-top: -550px;
+}
 
 
+#intro{
+  width: 1440px;
+height: 750px;
+}
 
+#intro-text{
+  width: 960px;
+  height: 750px;
+  float: left;
+}
 
+h4{
+  font-family: sans-serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 60px;
+}
+#img1{
 
+}
 
-
-
-
-
-
+.shape1 {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background: tomato;
+}
+.shape1:after {
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    left: 0px;
+    bottom: -100px;
+    border-width: 50px 100px;
+    border-style: solid;
+    border-color: tomato tomato transparent transparent;
+}
 
 
 
 /* comment: comm+/   /* ***************************************************************************** */ */
 
-html {font-size: 16px;}
-#container{
-  width: 40%;
-  margin: 100px auto;
-  background-color: white;
-}
-h1{
+
+
+
+
+font-family: 'Montserrat', sans-serif;
+
+
+h{
   font-family: 'Notable', sans-serif;
   color: gold;
   font-size: 55px;
   text-align: center;
 }
 
-.intro {
+.i {
   text-align: left;
   font-size: 18px;
   font-family: 'Questrial', sans-serif;
   color: black;
 }
 
-h4{
+h{
   text-align: left;
   font-size: 15px;
   font-family: 'Questrial', sans-serif;
@@ -47,20 +112,20 @@ h4{
   margin-bottom: 50px;
 }
 
-h2{
+h{
   font-family: 'Notable', sans-serif;
   color: gold;
   font-size: 200%;;
 }
 
-li{
+l{
   text-align: left;
   font-size: 18px;
   font-family: 'Questrial', sans-serif;
   color: black;
   line-height: 1.5em;}
 
-p {
+ {
 text-align: left;
 font-size: 18px;
 font-family: 'Questrial', sans-serif;
@@ -68,23 +133,10 @@ color: black;
 line-height: 1.5em;
 }
 
-h3{
+h{
   font-family: 'Notable', sans-serif;
   color: gold;
   font-size: 500%;
   text-align: center;
   margin-top: -50px;
 }
-
-
-@media only screen and (max-width: 600px)
-{
-  body{background-color: black;}
-  #container{
-    background-color: black;
-    width: 90%;
-  }
-  p{color: white;}
-  .intro{color: white;}
-li{color: white;}
-h1{  font-size: 48px;}
