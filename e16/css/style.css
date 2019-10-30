@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+#container {
+width: 80%;
+text-align: center;
+margin: 0 auto;
+}
+
+.f1 {
+  width: 700px;
+  height: 800px;
+  background-color: green;
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+}
+
+.f2{
+  width: 700px;
+  height: 250px;
+  background-color: red;
+  position: absolute;
+  top: 670px;
+  left: 992px;
+  transform: skew(-68deg, -1deg);
+}
+
+.f3{
+  z-index: 1;
+  width: 700px;
+  height: 300px;
+  background-color: green;
+  position: absolute;
+  top: 864px;
+  left: 681px;
+}
+
+.f4{
+  z-index: 1;
+  width: 700px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 645px;
+  left: 681px;
+}
+
+.f5 {
+  width: 700px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: -114px;
+  left: 1300px;
+}
+
+  .f6 {
+    width: 618px;
+    height: 250px;
+    background-color: blue;
+    position: absolute;
+    top: 913px;
+    left: 1382px;
+    transform-origin: bottom left;
+    transform: skew(0deg, -22deg);
+   }
+
+.leg1{
+  width: 80px;
+  height: 120px;
+  background-color: blue;
+  position: absolute;
+  top: 1164px;
+  left: 681px;
+}
+
+.leg2{
+  width: 80px;
+  height: 120px;
+  background-color: blue;
+  position: absolute;
+  top: 1164px;
+  left: 1302px;
+}
+
+.leg3{
+  width: 80px;
+  height: 120px;
+  background-color: blue;
+  position: absolute;
+  top: 914px;
+  left: 1920px;
+}
+
+.sheet1{
+  width: 700px;
+  height: 203px;
+  background-color: yellow;
+  position: absolute;
+  top: 720px;
+  left: 926px;
+  transform: skew(-68deg, -1deg);
+}
