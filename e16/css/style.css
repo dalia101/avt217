@@ -1,16 +1,38 @@
 body {
   margin: 0;
+  background-color: black;
 }
 #container {
-width: 80%;
+width: 60%;
 text-align: center;
-margin: 0 auto;
+margin: 30% 0 0 0;
+top: 200px;
+left: 500px;
+}
+
+.f10{
+  width: 700px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: #2A2A2A;
+  position: absolute;
+  top: -120px;
+  left: 1332px;
 }
 
 .f1 {
   width: 700px;
   height: 800px;
-  background-color: green;
+  background-color: dimgray;
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+}
+
+.f11 {
+  width: 700px;
+  height: 400px;
+  background-color: dimgray;
   position: absolute;
   top: 100px;
   left: 1300px;
@@ -19,7 +41,7 @@ margin: 0 auto;
 .f2{
   width: 700px;
   height: 250px;
-  background-color: red;
+  background-color: gray;
   position: absolute;
   top: 670px;
   left: 992px;
@@ -27,31 +49,34 @@ margin: 0 auto;
 }
 
 .f3{
-  z-index: 1;
+  z-index: 2222;
   width: 700px;
   height: 300px;
-  background-color: green;
+  background-color: dimgray;
   position: absolute;
   top: 864px;
   left: 681px;
 }
 
 .f4{
-  z-index: 1;
+  z-index: 2222;
   width: 700px;
   height: 450px;
   border-radius: 50%;
-  background-color: green;
+  background-color: dimgray;
   position: absolute;
   top: 645px;
   left: 681px;
 }
 
+
+
 .f5 {
+  z-index: 11;
   width: 700px;
   height: 450px;
   border-radius: 50%;
-  background-color: green;
+  background-color: dimgray;
   position: absolute;
   top: -114px;
   left: 1300px;
@@ -60,7 +85,7 @@ margin: 0 auto;
   .f6 {
     width: 618px;
     height: 250px;
-    background-color: blue;
+    background-color: dimgray;
     position: absolute;
     top: 913px;
     left: 1382px;
@@ -71,7 +96,7 @@ margin: 0 auto;
 .leg1{
   width: 80px;
   height: 120px;
-  background-color: blue;
+  background-color: dimgray;
   position: absolute;
   top: 1164px;
   left: 681px;
@@ -80,27 +105,466 @@ margin: 0 auto;
 .leg2{
   width: 80px;
   height: 120px;
-  background-color: blue;
+  background-color: dimgray;
   position: absolute;
   top: 1164px;
-  left: 1302px;
+  left: 1301px;
 }
 
 .leg3{
   width: 80px;
   height: 120px;
-  background-color: blue;
+  background-color: dimgray;
   position: absolute;
-  top: 914px;
+  top: 912px;
   left: 1920px;
 }
 
 .sheet1{
   width: 700px;
   height: 203px;
-  background-color: yellow;
+  background-color: silver;
   position: absolute;
   top: 720px;
   left: 926px;
   transform: skew(-68deg, -1deg);
 }
+
+.sheet2 {
+  width: 493px;
+  height: 300px;
+  background-color: silver;
+  position: absolute;
+  top: 913px;
+  left: 1382px;
+  transform-origin: bottom left;
+  transform: skew(0deg, -22deg);
+ }
+
+ .f7 {
+   z-index: 1111;
+   width: 30px;
+   height: 412px;
+   background-color: #2A2A2A;
+   position: absolute;
+   top: 872px;
+   left: 1379px;
+   transform-origin: bottom left;
+   transform: skew(0deg, -22deg);
+  }
+
+  .f8{
+    z-index: 1111;
+    width: 700px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #2A2A2A;
+    position: absolute;
+    top: 637px;
+    left: 711px;
+  }
+
+  .f9 {
+    z-index: 1;
+    width: 30px;
+    height: 900px;
+    background-color: #2A2A2A;
+    position: absolute;
+    top: 131px;
+    left: 2001px;
+    transform-origin: bottom left;
+    transform: skew(0deg, -22deg);
+   }
+
+
+
+ .p1{
+   width: 600px;
+   height: 300px;
+   border-radius: 10%;
+   background-color: #2A2A2A;
+   position: absolute;
+   top: 401px;
+   left: 1320px;
+ }
+
+ .pl{
+   width: 100px;
+   height: 300px;
+   border-radius: 50%;
+   background-color: #2A2A2A;
+   position: absolute;
+   top: 401px;
+   left: 1277px;
+ }
+
+ .pr{
+   width: 100px;
+   height: 300px;
+   border-radius: 50%;
+   background-color: #2A2A2A;
+   position: absolute;
+   top: 393px;
+   left: 1854px;
+ }
+
+ .pt{
+   width: 602px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: #2A2A2A;
+   position: absolute;
+   top: 375px;
+   left: 1325px;
+ }
+
+ .pr2{
+   width: 80px;
+   height: 285px;
+   border-radius: 50%;
+   background-color: silver;
+   position: absolute;
+   top: 403px;
+   left: 1862px;
+ }
+
+ .sheet3{
+   z-index: 1;
+   width: 585px;
+   height: 325px;
+   border-radius: 50%;
+   background-color: silver;
+   position: absolute;
+   top: 583px;
+   left: 1253px;
+ }
+
+
+
+ .face{
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+   background-color: gray;
+   position: absolute;;
+   top: 405px;
+   left: 1420px;
+ }
+
+ .er1{
+   width: 80px;
+   height: 90px;
+   border-radius: 100%;
+   background-color: white;
+   position: absolute;
+   top: 456px;
+   left: 1579px;
+   animation-name: blink;
+ }
+
+ .er2{
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   background-color: black;
+   position: absolute;
+   top: 490px;
+   left: 1608px;
+   animation-name: blink2;
+ }
+
+ .el1{
+   width: 80px;
+   height: 90px;
+   border-radius: 100%;
+   background-color: white;
+   position: absolute;
+   top: 460px;
+   left: 1468px;
+   animation-name: blink;
+ }
+
+ .el2{
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   background-color: black;
+   position: absolute;
+   top: 493px;
+   left: 1497px;
+   animation-name: blink2;
+ }
+
+ .nose{
+   width: 50px;
+   height: 40px;
+   border-radius: 100%;
+   background-color: #484747;
+   position: absolute;
+   top: 528px;
+   left: 1537px;
+ }
+
+ .earl{
+   width: 50px;
+   height: 60px;
+   border-radius: 100%;
+   background-color: gray;
+   position: absolute;
+   top: 505px;
+   left: 1403px;
+ }
+
+ .earr{
+   width: 50px;
+   height: 60px;
+   border-radius: 100%;
+   background-color: gray;
+   position: absolute;
+   top: 497px;
+   left: 1687px;
+ }
+
+ .br{
+   width: 50px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: black;
+   position: absolute;
+   top: 446px;
+   left: 1613px;
+   transform: rotate(25deg);
+ }
+
+ .bl{
+   width: 50px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: black;
+   position: absolute;
+   top: 453px;
+   left: 1465px;
+   transform: rotate(335deg);
+ }
+
+
+
+
+ .mr1 {
+   width: 170px;
+   height: 75px;
+   border-radius: 100%;
+   background-color: darkred;
+   position: absolute;
+   top: 1193px;
+   left: 1066px;
+   transform: rotate(340deg);
+   animation-name: blink3;
+  }
+
+  .mr2{
+    width: 30px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 1199px;
+    left: 1129px;
+    transform: rotate(340deg);
+    animation-name: blink4;
+  }
+
+  .ml1 {
+    width: 170px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 1197px;
+    left: 849px;
+    transform: rotate(200deg);
+    animation-name: blink3;
+   }
+
+   .ml2{
+     width: 30px;
+     height: 70px;
+     border-radius: 100%;
+     background-color: black;
+     position: absolute;
+     top: 1202px;
+     left: 925px;
+     transform: rotate(200deg);
+     animation-name: blink4;
+   }
+
+   .s1, .s2, .s3, .s4, .s5, .s6{
+     z-index: 2222;
+     width: 35px;
+     height: 60px;
+     border-radius: 90%;
+     background-color: red;
+     position: absolute;
+     top: 597px;
+     left: 1687px;
+     background-color: gray;
+     animation-name: shiver;
+   }
+
+.s1{
+  top: 618px;
+  left: 1291px;
+}
+.s2{
+  top: 589px;
+  left: 1354px;
+}
+.s3{
+  top: 600px;
+  left: 1322px;
+}
+.s4{
+  top: 597px;
+  left: 1713px;
+}
+.s5{
+  top: 607px;
+  left: 1745px;
+}
+.s6{
+  top: 626px;
+  left: 1775px;
+}
+
+
+.b1{
+    width: 200px;
+    height: 200px;
+    background-color: #4F4E4E;
+    position: absolute;
+    top: 34px;
+    left: 777px;
+    animation-name: light;
+}
+
+.b2{
+    width: 200px;
+    height: 200px;
+    background-color: #4F4E4E;
+    position: absolute;
+    top: 34px;
+    left: 530px;
+    animation-name: light;
+}
+
+.b3{
+    width: 200px;
+    height: 200px;
+    background-color: #4F4E4E;
+    position: absolute;
+    top: 282px;
+    left: 530px;
+    animation-name: light;
+}
+
+.b4{
+    width: 200px;
+    height: 200px;
+    background-color: #4F4E4E;
+    position: absolute;
+    top: 282px;
+    left: 777px;
+    animation-name: light;
+}
+
+     @keyframes blink {
+       0% {height: 90px;}
+       50% {height: 1px;
+            top: 502px;}
+       100% {height: 90px;}
+      }
+
+     .er1, .el1 {
+       width: 80px;
+       height: 90px;
+       background-color: white;
+       animation-name: blink;
+       animation-timing-function: 5s;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+     }
+
+     @keyframes blink2 {
+       0% {height: 20px;}
+       50% {height: 1px;
+       top:503px;}
+       100% {height: 20px;}
+      }
+      .er2, .el2 {
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        animation-name: blink2;
+        animation-timing-function: 5s;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes blink3 {
+        0% {height: 75px;}
+        50% {height: 0px;
+        top: 1234px;}
+        100% {height: 75px;}
+       }
+       .mr1, .ml1 {
+         width: 170px;
+         height: 75px;
+         background-color: #D20101;
+         animation-name: blink3;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+       }
+
+       @keyframes blink4 {
+         0% {height: 70px;}
+         50% {height: 0px;
+         top: 1236px;}
+         100% {height: 70px;}
+        }
+        .mr2, .ml2 {
+          width: 30px;
+          height: 70px;
+          background-color: black;
+          animation-name: blink4;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+        }
+
+
+        @keyframes light {
+          from {background-color: #4F4E4E;}
+          to {background-color: white;}
+        }
+        .b1, .b2, .b3, .b4 {
+          width: 200px;
+          height: 200px;
+          background-color: #4F4E4E;
+          animation-name: light;
+          animation-duration: 2.5s;
+          animation-iteration-count: infinite;
+        }
+
+
+        @keyframes shiver {
+          0% {top: 595px;}
+          50% {top: 603px;}
+          100% {top: 595px;}
+         }
+        .s1, .s2, .s3, .s4, .s5, .s6{
+          width: 35px;
+          height: 60px;
+          background-color: gray;
+          animation-name: shiver;
+          animation-duration: 0.2s;
+          animation-iteration-count: infinite;
+        }
