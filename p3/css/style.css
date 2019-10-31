@@ -34,7 +34,7 @@ margin-top: 290px;
 
 
 h3{
-  font-family: 'Teko', sans-serif;
+font-family: 'Teko', sans-serif;
 font-size: 300px;
 color: white;
 font-weight: bold;
@@ -59,7 +59,7 @@ margin-top: 395px;
 #intro{
   /* width: 1440px; */
 /* height: 750px; */
-margin-bottom: 100px;
+margin-bottom: 200px;
 }
 
 #intro-text{
@@ -88,78 +88,51 @@ img{
   max-width: 100%;
 }
 /* ************************************************** */
+
+h5{
+font-family: 'Teko', sans-serif;
+font-size: 50px;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+line-height: 0;
+margin-top: 100px;
+}
+
+
 .shape1 {
+  margin-top: 100px;
     height: 800px;
     /* width: 1440px; */
     background: #EB9F4A;
 }
+.text{
+  width: 66%;
+  /* height: 750px; */
+  float: left;
+}
 .t1 {
-	width: 0;
-	height: 0;
-	text-indent: -9999px;
-	border-bottom: 100px solid #f09;
-	border-left: 100% solid transparent;
-  transform: scaley(-1);
+     width: 0;
+     height: 0;
+     border-top: 30vh solid #EB9F4A;
+     border-left: 100vw solid transparent;
+     margin-top: 10px;
+   }
+
+
+
+ .t2 {
+    width: 0;
+    height: 0;
+    border-bottom: 30vh solid red;
+    border-right: 100vw solid transparent;
+    margin-top: -403px;
+  }
+.shape2 {
+  margin-top: 100px;
+    height: 800px;
+    /* width: 1440px; */
+    background: brown;
 }
-
-
-
 /* comment: comm+/   /* ***************************************************************************** */ */
-
-
-
-
-
-font-family: 'Montserrat', sans-serif;
-
-
-h{
-  font-family: 'Notable', sans-serif;
-  color: gold;
-  font-size: 55px;
-  text-align: center;
-}
-
-.i {
-  text-align: left;
-  font-size: 18px;
-  font-family: 'Questrial', sans-serif;
-  color: black;
-}
-
-h{
-  text-align: left;
-  font-size: 15px;
-  font-family: 'Questrial', sans-serif;
-  color: gold;
-  margin-bottom: 50px;
-}
-
-h{
-  font-family: 'Notable', sans-serif;
-  color: gold;
-  font-size: 200%;;
-}
-
-l{
-  text-align: left;
-  font-size: 18px;
-  font-family: 'Questrial', sans-serif;
-  color: black;
-  line-height: 1.5em;}
-
- {
-text-align: left;
-font-size: 18px;
-font-family: 'Questrial', sans-serif;
-color: black;
-line-height: 1.5em;
-}
-
-h{
-  font-family: 'Notable', sans-serif;
-  color: gold;
-  font-size: 500%;
-  text-align: center;
-  margin-top: -50px;
-}
