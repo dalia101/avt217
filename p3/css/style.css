@@ -68,7 +68,7 @@ margin-bottom: 200px;
   float: left;
 }
 
-h4{
+p{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 35px;
   color: white;
@@ -119,7 +119,7 @@ background-size: cover;
 }
 img{
   max-width: 100%;
-  width: 40%;
+  width: 35%;
   margin: 10% 5%;
   text-align: center;
   float: left;
@@ -138,26 +138,27 @@ img{
   background: #EB9F4A;
 }
 .text{
-  width: 50%;
+  width: 45%;
   /* height: 750px; */
   float: left;
-  margin: 70px auto;
+  margin: 40px 0 0 0;
+  padding: 50px;
 }
 /***************************/
 
 .t1 {
-     width: 0;
-     height: 0;
-     border-top: 15vh solid #EB9F4A;
-     border-left: 100vw solid transparent;
-     margin-top: -101px;
-   }
+   width: 0;
+   height: 0;
+   border-top: 15vh solid #EB9F4A;
+   border-left: 100vw solid transparent;
+   margin-top: -101px;
+}
 
 
  .t2 {
   width: 0;
   height: 0;
-  border-top: 15vh solid red;
+  border-top: 15vh solid brown;
   border-right: 100vw solid transparent;
 }
 
@@ -168,3 +169,273 @@ img{
     background: brown;
 }
 /* comment: comm+/   /* ***************************************************************************** */ */
+
+
+.shape3 {
+  height: 700px;
+  background: darksalmon;
+}
+
+.t3 {
+  width: 0;
+  height: 0;
+  border-top: 15vh solid darksalmon;
+  border-left: 100vw solid transparent;
+  margin-top: -101px;
+}
+
+.shape4 {
+  margin-top: 100px;
+  height: 1000px;
+   /* width: 1440px; */
+  background: green;
+}
+
+
+.t4 {
+ width: 0;
+ height: 0;
+ border-top: 15vh solid green;
+ border-right: 100vw solid transparent;
+}
+
+.shape5 {
+  height: 1000px;
+  background: red;
+}
+
+
+
+.t5 {
+  width: 0;
+  height: 0;
+  border-top: 15vh solid red;
+  border-left: 100vw solid transparent;
+  margin-top: -101px;
+}
+
+
+.shape6 {
+  height: 1000px;
+   /* width: 1440px; */
+  background: gold;
+}
+
+
+#end{
+
+}
+
+#end-text{
+  width: 100%;
+  /* height: 750px; */
+}
+
+h4{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0;
+  margin: 15% auto;
+}
+
+
+/*####################################################*/
+
+
+@media only screen and (max-width: 1339px)
+{
+  #container{
+    width: 1024px;
+  }
+  img{
+    width: 25%;
+    margin: 10% 5%;
+  }
+  h5{
+    font-size: 150px;
+    line-height: 0;
+    margin: 15% auto;
+  }
+
+  h6{
+    font-size: 25px;
+    line-height: 1.5em;
+  }
+  .line{
+    width: 150px;
+
+    margin: 0 auto;
+  }
+  p{
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 60px;
+}
+h1{
+font-size: 400px;
+line-height: 0;
+margin-top: 290px;
+/* margin-top: -140px; */
+/* margin-bottom: -550px; */
+}
+h3{
+font-size: 200px;
+line-height: 0;
+margin-top: 100px;
+}
+
+h2{
+font-size: 500px;
+line-height: 0;
+margin-top: 395px;
+}
+
+
+
+@media only screen and (max-width: 1023px)
+  {
+  #container{
+    width: 767px;
+  }
+  img{
+    width: 50%;
+    margin: 10% 5%;
+    text-align: center;
+  }
+  h5{
+    font-size: 150px;
+    line-height: 0;
+    margin: 15% auto;
+}
+  h6{
+    font-size: 25px;
+    line-height: 1.5em;
+  }
+  .line{
+    width: 150px
+    margin: 0 auto;
+  }
+  p{
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 60px;
+}
+#intro-text{
+  width: 90%;
+}
+h4{
+  font-size: 60px;
+  line-height: 0;
+  margin: 15% auto;
+}
+h1{
+font-size: 300px;
+line-height: 0;
+margin-top: 200px;
+/* margin-top: -140px; */
+/* margin-bottom: -550px; */
+}
+h3{
+font-size: 100px;
+line-height: 0;
+margin-top: 100px;
+}
+
+h2{
+font-size: 400px;
+line-height: 0;
+margin-top: 270px;
+}
+
+
+@media only screen and (max-width: 767px)
+  {
+  #container{
+    width: 767px;
+  }
+  img{
+    width: 50%;
+    margin: 10% 5%;
+    text-align: center;
+  }
+  h5{
+    font-size: 100px;
+    line-height: 0;
+    margin: 15% auto;
+}
+  h6{
+    font-size: 25px;
+    line-height: 1.5em;
+  }
+  .line{
+    width: 150px
+    margin: 0 auto;
+  }
+  p{
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 60px;
+}
+#intro-text{
+  width: 90%;
+}
+h4{
+  font-size: 40px;
+  line-height: 0;
+  margin: 15% auto;
+}
+.text{
+  width: 80%;
+  /* height: 750px; */
+  margin: 40px 0 0 0;
+  padding: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 319px)
+  {
+  #container{
+    width: 767px;
+  }
+  img{
+    width: 50%;
+    margin: 10% 5%;
+    text-align: center;
+  }
+  h5{
+    font-size: 100px;
+    line-height: 0;
+    margin: 15% auto;
+}
+  h6{
+    font-size: 25px;
+    line-height: 1.5em;
+  }
+  .line{
+    width: 150px
+    margin: 0 auto;
+  }
+  p{
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 60px;
+}
+#intro-text{
+  width: 90%;
+}
+h4{
+  font-size: 40px;
+  line-height: 0;
+  margin: 15% auto;
+}
+.text{
+  width: 80%;
+  /* height: 750px; */
+  margin: 40px 0 0 0;
+  padding: 50px;
+}
