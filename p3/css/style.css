@@ -84,61 +84,86 @@ margin-left: 40px;
 /* background: url(../imgs/1.png) no-repeat center center; */
 background-size: cover;
 }
-img{
+#intro-img{
   max-width: 100%;
 }
 /* ************************************************** */
 
 h5{
-font-family: 'Teko', sans-serif;
-font-size: 50px;
-color: white;
-font-weight: bold;
-text-transform: uppercase;
-text-align: center;
-line-height: 0;
-margin-top: 100px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 200px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0;
+  margin: 15% auto;
 }
 
 h6{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   color: white;
+  text-align: center;
   text-align: left;
   line-height: 1.5em;
 }
 
-.shape1 {
-  margin-top: 100px;
-    height: 800px;
-    /* width: 1440px; */
-    background: #EB9F4A;
+#img2{
+width: 50%;
+margin: 5% auto;
+text-align: center;
+float: left;
+/* background: url(../imgs/1.png) no-repeat center center; */
+background-size: cover;
 }
-.text{
-  width: 66%;
-  /* height: 750px; */
+img{
+  max-width: 100%;
+  width: 40%;
+  margin: 10% 5%;
+  text-align: center;
   float: left;
 }
+.line{
+  width: 200px;
+  height:5px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+.shape1 {
+  margin-top: 30%;
+  height: 700px;
+    /* width: 1440px; */
+  background: #EB9F4A;
+}
+.text{
+  width: 50%;
+  /* height: 750px; */
+  float: left;
+  margin: 70px auto;
+}
+/***************************/
+
 .t1 {
      width: 0;
      height: 0;
-     border-top: 30vh solid #EB9F4A;
+     border-top: 15vh solid #EB9F4A;
      border-left: 100vw solid transparent;
      margin-top: -101px;
    }
 
 
-
  .t2 {
-    width: 0;
-    height: 0;
-    border-bottom: 30vh solid red;
-    border-right: 100vw solid transparent;
-    margin-top: -403px;
-  }
+  width: 0;
+  height: 0;
+  border-top: 15vh solid red;
+  border-right: 100vw solid transparent;
+}
+
 .shape2 {
   margin-top: 100px;
-    height: 800px;
+  height: 1000px;
     /* width: 1440px; */
     background: brown;
 }
