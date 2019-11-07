@@ -21,17 +21,17 @@ width: 100vw;
 
 h1{
   font-family: 'Teko', sans-serif;
-  font-size: 35em;
+  font-size: 26vw;
   color: white;
   font-weight: bold;
   text-align: center;
   line-height: 0;
-  margin-top:0.43em;
+  margin-top:0.42em;
 }
 
 h3{
   font-family: 'Teko', sans-serif;
-  font-size: 20em;
+  font-size: 14em;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -40,7 +40,7 @@ h3{
 
 h2{
   font-family: 'Teko', sans-serif;
-  font-size: 45em;
+  font-size: 32vw;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -67,6 +67,10 @@ p{
   text-align: center;
   line-height: 1.5em;
   margin: 60px;
+}
+
+img.big {
+  display: none;
 }
 
 #img1{
@@ -112,7 +116,7 @@ h6{
 }
 
 .text{
-  width: 45%;
+  width: 43%;
   /* height: 750px; */
   float: left;
   margin: 0 0 0 0;
@@ -122,20 +126,16 @@ h6{
 
 .shapeimg{
   width: 50%;
-  margin: 5% auto;
+  margin: 5% 0;
   text-align: center;
   float: left;
   /* background: url(../imgs/1.png) no-repeat center center; */
   background-size: cover;
 }
 
-/*img.all {
-  max-width: 50%;
-  width: 35%;
-  margin: 10% 5%;
-  text-align: center;
-  float: left;
-}*/
+.hide {
+  display: none;
+}
 
 img.bun{
   max-width: 50%;
@@ -188,7 +188,7 @@ img.cheese{
 
 .shape1 {
   margin-top: 30%;
-  height: 50vh;
+  /* height: 50vh; */
   /* width: 1440px; */
   background: #EB9F4A;
 }
@@ -196,7 +196,7 @@ img.cheese{
 
 .shape2 {
   margin-top: 100px;
-  height: 65vh;
+  /* height: 65vh; */
   /* width: 1440px; */
   background: brown;
 }
@@ -211,7 +211,7 @@ img.cheese{
 /* =========================== */
 
 .shape3 {
-  height: 65vh;
+  /* height: 65vh; */
   background: darksalmon;
 }
 
@@ -225,7 +225,7 @@ img.cheese{
 
 .shape4 {
   margin-top: 100px;
-  height: 65vh;
+  /* height: 65vh; */
   /* width: 1440px; */
   background: green;
 }
@@ -240,7 +240,7 @@ img.cheese{
 /* =========================== */
 
 .shape5 {
-  height: 73vh;
+  /* height: 73vh; */
   background: red;
 }
 
@@ -253,7 +253,7 @@ img.cheese{
 /* =========================== */
 
 .shape6 {
-  height: 66vh;
+  /* height: 66vh; */
   /* width: 1440px; */
   background: gold;
 }
@@ -363,8 +363,6 @@ h4{
     font-size: 400px;
     line-height: 0;
     margin-top: 290px;
-    /* margin-top: -140px; */
-    /* margin-bottom: -550px; */
   }
   h3{
     font-size: 200px;
@@ -380,37 +378,92 @@ h4{
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
-@media only screen and (max-width: 1023px)
+@media only screen and (max-width: 1024px)
   {
   #container{
-    width: 767px;
+    width: 1024px;
   }
-  img{
-    width: 50%;
-    margin: 10% 5%;
+  #intro-text{
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
+  }
+  img.big {
+    display: block;
+  }
+  img.small {
+    display: none;
+  }
+  #img1{
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  #intro-img{
+    max-width: 100%;
+  }
+  p{
+    font-size: 4vw;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+
+  .hide {
+    display: block;
+  }
+  .show {
+    display: none;
+  }
+  .shapeimg{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+  }
+  img.bun {
+    max-width: 35%;
+    width: 50%;
+    margin:5% 20%;
+    text-align: center;
+    float: left;
+  }
+  img.sauce, img.tomato,  img.patty, img.lettuce,img.cheese  {
+    max-width: 47%;
+    width: 50%;
+    margin:0% 28%;
+    text-align: center;
+    float: left;
+  }
+
+  .shape1 {
+    height: 66vh;
+  }
+  .shape2, .shape3, .shape4, .shape5, .shape6 {
+    height: 85vh;
+  }
+
+  .text{
+    width: 90%;
+    float: none;
+    margin: 40% 0 0 0;
+    padding: 50px;
   }
   h5{
     font-size: 150px;
     line-height: 0;
-    margin: 15% auto;
+    margin: 15% -15%;
 }
   h6{
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5em;
   }
   .line{
-    width: 150px
+    width: 200px;
     margin: 0 auto;
   }
-  p{
-    font-size: 30px;
-    line-height: 1.5em;
-    margin: 60px;
-}
-#intro-text{
-  width: 90%;
-}
+
+
 h4{
   font-size: 60px;
   line-height: 0;
@@ -420,8 +473,6 @@ h1{
 font-size: 300px;
 line-height: 0;
 margin-top: 200px;
-/* margin-top: -140px; */
-/* margin-bottom: -550px; */
 }
 h3{
 font-size: 100px;
@@ -434,93 +485,111 @@ font-size: 400px;
 line-height: 0;
 margin-top: 270px;
 }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
-
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 768px)
   {
   #container{
-    width: 767px;
+    width: 768px;
   }
-  img{
-    width: 50%;
-    margin: 10% 5%;
+  #intro-text{
+    width: 90%;
+    margin: 0 5%;
     text-align: center;
   }
-  h5{
-    font-size: 100px;
-    line-height: 0;
-    margin: 15% auto;
-}
-  h6{
-    font-size: 25px;
-    line-height: 1.5em;
+  img.big {
+    display: block;
   }
-  .line{
-    width: 150px
+  img.small {
+    display: none;
+  }
+  #img1{
+    width: 100%;
+    float: none;
     margin: 0 auto;
   }
+  #intro-img{
+    max-width: 100%;
+  }
   p{
+    font-size: 6vw;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+.t1, .t2, .t3, .t4, .t5 {
+display: none;
+}
+  .hide {
+    display: block;
+  }
+  .show {
+    display: none;
+  }
+  .shapeimg{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+  }
+  img.bun {
+    max-width: 80%;
+    width: 80%;
+    margin:5% 6%;
+    text-align: center;
+    float: none;
+  }
+  img.sauce, img.tomato,  img.patty, img.lettuce,img.cheese  {
+    max-width: 80%;
+    width: 80%;
+    margin: 5% 10%;
+    text-align: center;
+    float: none;
+  }
+
+  .shape1 {
+    height: 90vh;
+  }
+  .shape2, .shape3, .shape4, .shape5, .shape6 {
+    height: 90vh;
+    margin-top: -40px;
+  }
+
+  .text{
+    width: 90%;
+    float: none;
+    margin: 0 0 0 0;
+    padding: 50px;
+  }
+  h5{
+    font-size: 200px;
+    line-height: 0;
+    margin: 15% -15%;
+}
+  h6{
     font-size: 30px;
     line-height: 1.5em;
-    margin: 60px;
-}
-#intro-text{
-  width: 90%;
-}
+  }
+
+
 h4{
-  font-size: 40px;
+  font-size: 60px;
   line-height: 0;
   margin: 15% auto;
 }
-.text{
-  width: 80%;
-  /* height: 750px; */
-  margin: 40px 0 0 0;
-  padding: 50px;
+h1{
+font-size: 300px;
+line-height: 0;
+margin-top: 200px;
+}
+h3{
+font-size: 100px;
+line-height: 0;
+margin-top: 100px;
 }
 
-
-
-
-@media only screen and (max-width: 319px)
-  {
-  #container{
-    width: 767px;
-  }
-  img{
-    width: 50%;
-    margin: 10% 5%;
-    text-align: center;
-  }
-  h5{
-    font-size: 100px;
-    line-height: 0;
-    margin: 15% auto;
-}
-  h6{
-    font-size: 25px;
-    line-height: 1.5em;
-  }
-  .line{
-    width: 150px
-    margin: 0 auto;
-  }
-  p{
-    font-size: 30px;
-    line-height: 1.5em;
-    margin: 60px;
-}
-#intro-text{
-  width: 90%;
-}
-h4{
-  font-size: 40px;
-  line-height: 0;
-  margin: 15% auto;
-}
-.text{
-  width: 80%;
-  /* height: 750px; */
-  margin: 40px 0 0 0;
-  padding: 50px;
+h2{
+font-size: 400px;
+line-height: 0;
+margin-top: 270px;
 }
