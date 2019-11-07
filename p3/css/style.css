@@ -62,7 +62,7 @@ h2{
 
 p{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 35px;
+  font-size: 2.5vw;
   color: white;
   text-align: center;
   line-height: 1.5em;
@@ -73,7 +73,7 @@ p{
   width: 30%;
   text-align: center;
   float: left;
-  margin-left: 40px;
+  margin-left: 4%;
   /* background: url(../imgs/1.png) no-repeat center center; */
   background-size: cover;
 }
@@ -115,12 +115,12 @@ h6{
   width: 45%;
   /* height: 750px; */
   float: left;
-  margin: 40px 0 0 0;
+  margin: 0 0 0 0;
   padding: 50px;
 }
 /* ****************************************************** */
 
-#img2{
+.shapeimg{
   width: 50%;
   margin: 5% auto;
   text-align: center;
@@ -129,10 +129,58 @@ h6{
   background-size: cover;
 }
 
-img{
-  max-width: 100%;
+/*img.all {
+  max-width: 50%;
   width: 35%;
   margin: 10% 5%;
+  text-align: center;
+  float: left;
+}*/
+
+img.bun{
+  max-width: 50%;
+  width: 50%;
+  margin: 0% 15%;
+  text-align: center;
+  float: left;
+}
+
+img.patty{
+  max-width: 50%;
+  width: 50%;
+  margin: 0% 35%;
+  text-align: center;
+  float: left;
+}
+
+img.sauce{
+  max-width: 50%;
+  width: 50%;
+  margin: 0% 15%;
+  text-align: center;
+  float: left;
+}
+
+img.lettuce{
+  max-width: 50%;
+  width: 50%;
+  margin: 0% 35%;
+  text-align: center;
+  float: left;
+}
+
+img.tomato{
+  max-width: 50%;
+  width: 50%;
+  margin: 0% 15%;
+  text-align: center;
+  float: left;
+}
+
+img.cheese{
+  max-width: 50%;
+  width: 50%;
+  margin: 0% 35%;
   text-align: center;
   float: left;
 }
@@ -192,7 +240,7 @@ img{
 /* =========================== */
 
 .shape5 {
-  height: 65vh;
+  height: 73vh;
   background: red;
 }
 
@@ -205,7 +253,7 @@ img{
 /* =========================== */
 
 .shape6 {
-  height: 65vh;
+  height: 66vh;
   /* width: 1440px; */
   background: gold;
 }
@@ -239,14 +287,64 @@ h4{
 }
 /*####################################################*/
 
-@media only screen and (max-width: 1339px){
+@media only screen and (max-width: 1440px){
   #container{
-    width: 1024px;
+    width: 1440px;
   }
-  img{
-    width: 25%;
-    margin: 10% 5%;
+  #intro-text{
+    width: 66%;
+    /* height: 750px; */
+    float: left;
   }
+  #img1{
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin-left: 4%;
+    /* background: url(../imgs/1.png) no-repeat center center; */
+    background-size: cover;
+  }
+  #intro-img{
+    max-width: 100%;
+  }
+
+  .text{
+    width: 55%;
+    /* height: 750px; */
+    float: left;
+    margin: 0 0 0 0;
+    padding: 50px;
+  }
+  .shapeimg{
+    width: 30%;
+    margin: 5% auto;
+    text-align: center;
+    float: left;
+    /* background: url(../imgs/1.png) no-repeat center center; */
+    background-size: cover;
+  }
+  img.bun {
+    max-width: 40%;
+    width: 50%;
+    margin:35% 15%;
+    text-align: center;
+    float: left;
+  }
+  img.sauce, img.tomato {
+    max-width: 50%;
+    width: 50%;
+    margin:60% 15%;
+    text-align: center;
+    float: left;
+  }
+  img.patty, img.lettuce,img.cheese{
+    max-width: 50%;
+    width: 50%;
+    margin:60% 35%;
+    text-align: center;
+    float: left;
+  }
+
   h5{
     font-size: 150px;
     line-height: 0;
@@ -260,11 +358,7 @@ h4{
     width: 150px;
     margin: 0 auto;
   }
-  p{
-    font-size: 30px;
-    line-height: 1.5em;
-    margin: 60px;
-  }
+
   h1{
     font-size: 400px;
     line-height: 0;
