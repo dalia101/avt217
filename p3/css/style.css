@@ -198,7 +198,7 @@ img.cheese{
   margin-top: 100px;
   /* height: 65vh; */
   /* width: 1440px; */
-  background: brown;
+  background: #663300;
 }
 
 .t1 {
@@ -218,7 +218,7 @@ img.cheese{
  .t2 {
   width: 0;
   height: 0;
-  border-top: 15vh solid brown;
+  border-top: 15vh solid #663300;
   border-right: 100vw solid transparent;
 }
 /* =========================== */
@@ -227,7 +227,7 @@ img.cheese{
   margin-top: 100px;
   /* height: 65vh; */
   /* width: 1440px; */
-  background: green;
+  background: #6ace29;
 }
 
 .t3 {
@@ -241,13 +241,13 @@ img.cheese{
 
 .shape5 {
   /* height: 73vh; */
-  background: red;
+  background: #d21f1a;
 }
 
 .t4 {
   width: 0;
   height: 0;
-  border-top: 15vh solid green;
+  border-top: 15vh solid #6ace29;
   border-right: 100vw solid transparent;
 }
 /* =========================== */
@@ -255,13 +255,13 @@ img.cheese{
 .shape6 {
   /* height: 66vh; */
   /* width: 1440px; */
-  background: gold;
+  background: #fdb912;
 }
 
 .t5 {
   width: 0;
   height: 0;
-  border-top: 15vh solid red;
+  border-top: 15vh solid #d21f1a;
   border-left: 100vw solid transparent;
   margin-top: -101px;
 }
@@ -422,9 +422,9 @@ h4{
     float: none;
   }
   img.bun {
-    max-width: 35%;
+    max-width: 40%;
     width: 50%;
-    margin:5% 20%;
+    margin:5% 25% 12%;
     text-align: center;
     float: left;
   }
@@ -437,10 +437,13 @@ h4{
   }
 
   .shape1 {
-    height: 66vh;
+    /*height: 66vh;*/
+    width: 100vw;
+
   }
   .shape2, .shape3, .shape4, .shape5, .shape6 {
-    height: 85vh;
+    /*height: 85vh;*/
+    width: 100vw;
   }
 
   .text{
@@ -470,18 +473,18 @@ h4{
   margin: 15% auto;
 }
 h1{
-font-size: 300px;
+font-size: 34vw;
 line-height: 0;
 margin-top: 200px;
 }
 h3{
-font-size: 100px;
+font-size: 20vw;
 line-height: 0;
 margin-top: 100px;
 }
 
 h2{
-font-size: 400px;
+font-size: 41vw;
 line-height: 0;
 margin-top: 270px;
 }
@@ -548,11 +551,13 @@ display: none;
   }
 
   .shape1 {
-    height: 90vh;
+    /*height: 90vh;*/
+    width: 100vw;
   }
   .shape2, .shape3, .shape4, .shape5, .shape6 {
-    height: 90vh;
+    /*height: 90vh;*/
     margin-top: -40px;
+    width: 100vw;
   }
 
   .text{
@@ -562,7 +567,7 @@ display: none;
     padding: 50px;
   }
   h5{
-    font-size: 200px;
+    font-size: 20vw;;
     line-height: 0;
     margin: 15% -15%;
 }
@@ -573,23 +578,23 @@ display: none;
 
 
 h4{
-  font-size: 60px;
+  font-size: 8vw;
   line-height: 0;
   margin: 15% auto;
 }
 h1{
-font-size: 300px;
+font-size: 34vw;
 line-height: 0;
 margin-top: 200px;
 }
 h3{
-font-size: 100px;
+font-size: 20vw;
 line-height: 0;
 margin-top: 100px;
 }
 
 h2{
-font-size: 400px;
+font-size: 41vw;
 line-height: 0;
 margin-top: 270px;
 }
