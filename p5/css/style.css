@@ -22,21 +22,8 @@ h1{
   margin: 16vh 35vw;
   background-size: cover;
 }
-body {
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 
-  /* cursor: url('file:///Users/soa1/Desktop/avt217/p5/imgs/cursor.png'); */
-}
 
-/* cursor: url('imgs/cursor.png'), auto; */
-
-/* .module {
-  cursor: url('path-to-image.png'), auto;
-} */
-/* img:hover{
-  cursor: url('imgs/cursor.png'), auto;
-
-} */
 .big:hover{
-  cursor: url('../imgs/cursor.png') ,auto;
+  cursor: url('../imgs/kp.png') ,auto;
 }
